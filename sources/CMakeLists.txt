@@ -3,6 +3,8 @@ find_package(Threads REQUIRED)
 list(APPEND SOURCES
     consumer.cpp
     consumer.h
+    consumer_pool.cpp
+    consumer_pool.h
     main.cpp
     parameter_queue.h
     parameter_queue.cpp
