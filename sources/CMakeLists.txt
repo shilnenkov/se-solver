@@ -4,6 +4,8 @@ list(APPEND SOURCES
     main.cpp
     parameter_queue.h
     parameter_queue.cpp
+    producer.cpp
+    producer.h
     )
 
 add_executable(se_solver ${SOURCES})
